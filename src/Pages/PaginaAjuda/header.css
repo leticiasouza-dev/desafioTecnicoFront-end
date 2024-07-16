@@ -9,7 +9,7 @@ header{ /*definindo estilos para minha header fixa*/
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 1000;
     width: 100%;
 }
 
@@ -67,9 +67,6 @@ header{ /*definindo estilos para minha header fixa*/
     cursor: pointer;
 }
 
-main{
-    margin-top: 150px;
-}
 
 @media screen and (max-width: 430px){ /*Adicionando resposnsividade para os elementos para um celular*/
     header{
