@@ -73,7 +73,7 @@ main{
 
 @media screen and (max-width: 430px){ /*Adicionando resposnsividade para os elementos para um celular*/
     header{
-        padding: 0;
+        padding: 15px 0;
         justify-content: center;
         gap: 0.5rem;
     }

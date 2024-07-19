@@ -43,3 +43,32 @@ main{
 .containerImagem img{
     width: 350px;
 }
+
+@media screen and (max-width: 430px){ /*Adicionando resposnsividade para os elementos para um celular*/
+    main{
+        padding: 0;
+    }
+
+    .containerPrincipal{
+        padding: 55px 0;
+        text-align: center;
+    }
+
+    .containerImagem img{
+        display: none;
+    }
+
+    .tituloPrincipal{
+        font-size: 40px;
+    }
+
+    .containerLogos{
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 431px) and (max-width: 800px){ /*adicionando resposividade para os elemento de um tablet*/
+    
+}
