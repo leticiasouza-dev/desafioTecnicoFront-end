@@ -44,3 +44,26 @@
     height: 20px;
 }
 
+@media screen and (max-width: 430px){ /*Adicionando resposnsividade para os elementos para um celular*/
+    .containerPrincipal{
+        padding: 50px 0;
+    }
+
+    .containerPrincipal h1{
+        text-align: center;
+    }
+
+    .formularioRastreio input{
+        width: 100%;
+    }
+
+    .banner{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 431px) and (max-width: 834px){ /*adicionando resposividade para os elemento de um tablet*/
+    .banner{
+        width: 100%;
+    }
+}
