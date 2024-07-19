@@ -69,6 +69,8 @@ main{
     
 }
 
-@media screen and (min-width: 431px) and (max-width: 800px){ /*adicionando resposividade para os elemento de um tablet*/
-    
+@media screen and (min-width: 431px) and (max-width: 834px){ /*adicionando resposividade para os elemento de um tablet*/
+    .tituloPrincipal{
+        font-size: 35px;
+    }
 }
