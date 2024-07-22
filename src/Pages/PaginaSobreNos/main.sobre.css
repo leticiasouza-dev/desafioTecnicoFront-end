@@ -1,0 +1,56 @@
+:root{ /*adicionando variáveis para as cores do projeto*/
+    --color-azul: #004AAD;
+    --color-verde-claro: #2bc866;
+    --color-verde-escuro: #1A9047;
+    --color-branco: #fff
+}
+
+.containerPrincipal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.containerPrincipal > .tituloPrincipal, .subparagrafo, h3{
+   color: var(--color-verde-claro); 
+}
+
+.tituloPrincipal{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.containerCards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.containerCards article{
+    line-height: 25px;
+    width: 300px;
+    margin: 90px 0;
+}
+
+.containerCards article > h3{
+    margin-bottom: 30px;
+}
+
+.containerCadastro{
+    width: 70%;
+}
+
+.subparagrafo{
+    font-size: 30px;
+}
+
+button{
+    color: var(--color-branco);
+    border: 1px solid var(--color-verde-claro);
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-top: 20px;
+    background-color: var(--color-verde-claro);
+}
