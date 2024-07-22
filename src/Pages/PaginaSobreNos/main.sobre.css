@@ -25,6 +25,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     width: 90%;
 }
 
@@ -53,4 +54,26 @@ button{
     padding: 8px 20px;
     margin-top: 20px;
     background-color: var(--color-verde-claro);
+}
+
+@media screen and (max-width: 430px){ /*Adicionando resposnsividade para os elementos para um celular*/
+   main{
+    margin-top: 200px;
+   }
+
+   .containerCards article{
+    margin: 40px 0;
+   }
+
+   .containerCadastro{
+    width: 100%;
+   }
+
+   .subparagrafo{
+    font-size: 20px;
+   }
+}
+
+@media screen and (min-width: 431px) and (max-width: 834px){ /*adicionando resposividade para os elemento de um tablet*/
+    
 }
