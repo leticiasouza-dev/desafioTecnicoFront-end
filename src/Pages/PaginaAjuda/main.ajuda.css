@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.containerAjuda h1{
+    margin-bottom: 20px;
+}
+
 .iconeSeta{
     height: 50px;
     margin: auto;
@@ -47,7 +51,7 @@ figure img{
 .divCards article{
     border: 2px solid var(--color-verde-claro);
     width: 250px;
-    height: 70vh;
+    height: 400px;
 
     padding: 30px 20px;
     line-height: 23px;
@@ -64,4 +68,34 @@ figure img{
 
 .divCards article ul{
     margin-top: 10px;
+}
+
+@media screen and (max-width: 430px){ /*Adicionando resposnsividade para os elementos para um celular*/
+    main{
+        margin-top: 200px;
+    }
+
+    .containerAjuda figure, .iconeSeta{
+        display: none;
+    }
+
+    .divCards{
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (min-width: 431px) and (max-width: 834px){ /*adicionando resposividade para os elemento de um tablet*/
+    figure img{
+        width: 300px;
+    }
+    
+    .iconeSeta{
+        display: none;
+    }
+
+    .divCards{
+        justify-content: center;
+    }
 }
