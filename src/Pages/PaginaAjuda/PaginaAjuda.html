@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="/src/stylesGlobais/global.css">
     <link rel="stylesheet" href="/src/stylesGlobais/header.css">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./main.ajuda.css">
 </head>
 <body>
     <header> <!--Definindo a Header do projeto, o cabeçalho-->
@@ -41,7 +41,57 @@
     </header>
 
     <main>
-        <p>Página de ajuda</p>
+        <section class="sessaoPrincipal">
+            <div class="containerAjuda">
+               <figure>
+                    <img src="/src/assets/Images/need_help.svg" alt="">
+                </figure> 
+                <div>
+                    <h1>Precisa de ajuda com algum rastreio?</h1>
+                    <p>Veja o que fazer em cada um dos casos:</p>
+                </div>
+                
+            </div>
+            
+            <div class="divCards">
+                <img class="iconeSeta" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABBElEQVR4nO3YzSpEcRjA4afJLLCwcwFzAXMBroDIQlwHF8CKS5AboOxHXACxZG2D8rUgOxslmjo0Tf/JR8q8p/epd39+na/3HFJKKaWUUvpj87jFIxYFNYMXvFXzIKApPPdEdOdeMG089UW8YkkgLdz1RXRnWSCTOC9ErApkAmeFiE2BjOGoELGNhiCaOChEdDAiiAZ2CxHH1VkKY6sQMexzWb2oP20MwUH9dm56Q9brEhL10rrAtG/e7CcYF0wT+4WYvUiP3w+jOCzE7ER6IfauKKfRV5SvlsY1AbUGrPErAmoP+LBaUJNP3Ss1+flwLbC5alHrRsz+98GklFJKKaXkJ94B/FYc410EtlgAAAAASUVORK5CYII=">
+                <article>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAClElEQVR4nO2Zv2sVQRDHP88i8WEXEIwa8EdpZVRIXgoFtbGxSKOthZWlWGvwRyQI/qgUREWSP0GwM00UG4kBNdEyT0tBC1ETVwbmYFnuvdzeu927XN4Xptndmdnv7uztzB5sAZiKijdqR6QqMFueSFtXoFX2VgATOpfVPMq3KnAejCM38hAZUDLJzpQpq0pC5lQIYn0ATGg/fSKeMP0dyYh+aFVtwf6pg0ZAHw31Ib6C4Zs6GXbaf/RwR4iujd3a/jUkkdfq5KTT/rIHIi8cW6e1fSEkkSl18tRpPwqs5SAhOocdW8+172pIIvuBdeA3MOr0XfEkIWfgUsqC/FEf+wiMezqRZWCv03cB+JmBxHfgnKM7AnzW/rtEQBNYVIdtTbFtyErOdgg1We3HeqBtTFjJ6SKwnUgYAubVsYTBHSVo4wBwHfgEfNCYl1W30VTddbU1r7ajYlAnsWaFmk8R1lKd5NCLLbFZGsZ0xZMD/BDY0WW8hM20tQBfgONUBE1gxpqchNN4yrhx7Ut2YSYlJEtFLYiMAR83c2gN1uGwDwGvPHYh6+4sADuJBInpJet1w70Q88C+EN/HOjcPrFDaU6BdSXdW1PZ9AiNJGiXVOBbA/qgmpBKuB4mQxj/JWOlNAm+At8B5YFsGvWfq4xolFFYuDlljbXkHHNlA95SOFf3gpe6uLmMuAr+6pPB/tXbphOEYpe5Gjw/THoXVow52GjEeH7o901zOUepO5fBTCDo5OGHVFL7l7hkPP4UhzUFDv0wmpyylfM1MGUTO9kAikckqEJkrgMhcFYisFEBkOSSRAeC2fs9NydLW34C5fr353Amx5GYeIklanVayxkbL2hlvBD9wseZj6kbEVEy8URsibCb8B84dsfu+nuQrAAAAAElFTkSuQmCC">
+                    <h4>Estou esperando uma encomenda</h4>
+
+                    <p class="paragrafoInicial">O remetente é a única pessoa que pode resolver problemas relacionados ao rastreio.</p>
+                    <p>Sugerimos que peça para a pessoa responsável pelo envio entrar em contato com a gente seguindo as instruções para lojistas.</p>
+                </article>
+
+                <article>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABP0lEQVR4nO2aMUoDURRFDwyWEVtJ4x4EK5dgk9JVWNm7CC1dhXaWIqiNCIIbECxsFRv1ysAXJMTJ/4bPvP94B1454R5yuUUmAFeAjNwNsMU/kbF7AXZXFXkENhmHCXCecrwD+6UfIEMyHXCScnwBRyUPy5hMzwHwmbKcAmtkIKMyM+AtZbkANpY9IMMyO8BzyvKwbNFkXGYK3OUsmhqQmeQsmhqR6YDjoUVTQzKDi6YGZWaLFk0O7taLiFYRsYJChPhGqqCoFlGtKiiqRVSrCopqEdWqgqJaRLWqoKgWUa0qKKqF0Wpde/nxYQo8eRDp2QZePYj07AEfHkR6Dr2I8OtlZPMiHXDmQeTnDdG9B5GcWbaCcvIMzbIVlJvnr1m2gkryLJplK6g0z/wsW0GleXJneayjhPX057CxQ8/f5TeyYkReO1WC5gAAAABJRU5ErkJggg==">
+                    <h4>Enviei um pacote com etiqueta do Melhor Envio</h4>
+                    <p>É muito fácil encontrar ajuda.</p>
+                    <p>Veja só:</p>
+
+                    <ul>
+                        <li>Entre na sua conta Melhor Envio</li>
+                        <li>Vá até a opção Ajuda</li>
+                        <li>Escolha o assunto que melhor representa sua dúvida e encontre o suporte que precisa.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1klEQVR4nO2ZP0oDQRSHPywi4gE0GAVvYKuFYCEmgieJVqI5gvEOVlYeQLDQ1mAVPYABCxM78R8Yi7gyMAvDMpHM7tuZDewHD8JCZn6/yZu38yZQUlKSN7PAAXAHfAGRQ/SBC2CdQNSAe0fRkSVGwJFv8StAT0B8pOMX2A4lfggcA1XHcZaAS2OcGwKJb2QYb9kY61NQ59jJHo0Jf4A9gXEjI6ZOvBcDadOmApwCA10y2/qZVwNZcr5tqTbqmTcDWdNmYDHw4suARM73LQaefRiwpc1uinHaFgMneRuQEq+oaBN9X5tYUrwLYgauAogXNXAdQLyogUXgEFjDH1VD/AdTSMsw0HH54kKA1U6yodM1NtDE4SUVV5t3YI4wnBniu2NKrLWHNdvAV2CeMGzp+bu6PZ2IfcFmJAgdw4BqA32yCZxnXbQ3w4DayL6oA99GuZyZJgN1Q7yKB6kUUjU4bxoJ8T195kpN0+MmbkiLj8to14OJXMTH1ITvdryKz/uaZCch/glYJSekTXgVL20iiHgpE0HFZzVRCPFpTRRKvKuJQor/73qlpfvXqv48zLvOS/8S46JQK297Y5vHjmQ4dVKhqOgurqP/AlJxqw+FE/WwJSUlpOYPq0FVlvHwJ3YAAAAASUVORK5CYII=">
+                    <h4>Comprei uma etiqueta diretamente com a trasnportadora</h4>
+                    <p>Sugerimos que entre em contato com a empresa responsável pelo envio</p>
+                
+                </article>
+                <article>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABWklEQVR4nO3Wv0odURDH8Y8K1hFjY7oUCdr6AOlEvckjpEiVPr1YaCOC+AIRC+19AKtcUqQNpAgkMcnNCin8gyBoIRsWjhCWc3dv3LMXJP5gmmVmv7MzZ2YP9/qf9AJHyFuyDJ0YOGsRmgf7FQP/7fAzYSV7pXf3BRfQhYTgxRK8L7hOj7CHs2C7mB4gLm8CfojDSO++YbJN8FbFwdlMBX6PbsnnRwW4qISK+HxQcBH0ruRzVQG+LPmW4/MmpY7198a+1sTmTcAbFeD1NsET+ByBFs8eNAX3wtCnUiesylrw0FdmNoSfRC8Gfl4qSWrLsJSwkndcXVzjBL/DUviEA+xgFa/xLIzWoMrrRrX7j30rdvc+3mAOY7cFFxoJXzOFx5jFPF5hBW/xAReRRI6xHQ7ReOQel0SjeIKXIZkvpSROcV43w6k0g2V8jFTjuyHpKdbCFswSr+E7qD/YthRm78oz2wAAAABJRU5ErkJggg==">
+                    <h4>Eu vou pagar alguma taxa de uso ou mensalidade?</h4>
+                    <p>Não! O melhor Rastreio é totalmente gratuito e não cobra nenhuma mensalidade ou taxa pelos servições.</p>
+                </article>
+
+                <img class="iconeSeta" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+klEQVR4nO3YMWoCQRTG8b9uIWIqOy9g6QG8QUQQBO+ghzCgdSwtba30BDZ2prdWUQtRknQ2ghgWptBlbJIU+4bvBw+m2GI+mJl9MyAiIiIiYkwL+AIOQAPDPoGbqwvwilGnuyBxnYEqRpfWNRHmG6hgUDsRJK4jUMagrifMCihh0LsnzBIoYkwGGHnCfAAvGBMBE0+YGZDDmDww94SZuqAPasDG83Haa5gMskvBpH5b/VCC9O6DxD3NOgWTuv11aVnc7GMgixGRO51MH7+ZJz/EBVDAkEEILcpbCE1jJ4Q2vhnKxWobylV3H8rjQ92F2bixiIiIiAj/5gcWXRzuiXxnygAAAABJRU5ErkJggg==">
+            </div>
+        </section>
+        
     </main>
 </body>
 </html>

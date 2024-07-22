@@ -1,0 +1,67 @@
+:root{ /*adicionando variáveis para as cores do projeto*/
+    --color-azul: #004AAD;
+    --color-verde-claro: #2bc866;
+    --color-verde-escuro: #1A9047;
+    --color-branco: #fff
+}
+
+.sessaoPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerAjuda{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.iconeSeta{
+    height: 50px;
+    margin: auto;
+}
+
+figure img{
+    width: 600px;
+}
+
+.containerAjuda h1{
+    color: var(--color-verde-claro);
+    font-size: 40px;
+}
+
+.divCards{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 80px 0;
+}
+
+.divCards img{
+    width: 30px;
+}
+
+.divCards article{
+    border: 2px solid var(--color-verde-claro);
+    width: 250px;
+    height: 70vh;
+
+    padding: 30px 20px;
+    line-height: 23px;
+}
+
+.divCards article h4{
+    color: var(--color-verde-claro);
+    margin: 15px 0;
+}
+
+.divCards article > .paragrafoInicial{
+    padding-bottom: 15px;
+}
+
+.divCards article ul{
+    margin-top: 10px;
+}
